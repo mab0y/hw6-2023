@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function() {
 	function updateVolume() {
 		volume.innerHTML = `${Math.round(video.volume * 100)}%`;
 	  }
-	updateVolume()
 
 	play.addEventListener("click", function() {
 	if (video.paused) {
