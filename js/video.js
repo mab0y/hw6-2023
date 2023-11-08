@@ -75,10 +75,11 @@ document.addEventListener("DOMContentLoaded", function() {
 	});
 
 	vintage.addEventListener("click", function(){
-		video.classList.add("oldSchool")
+		video.classList.add("oldSchool");
 	})
 
 	orig.addEventListener("click", function(){
-		video.classList.remove("oldSchool")
+		video.classList.remove("oldSchool");	
+		
 	})
 })
